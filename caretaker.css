@@ -1,0 +1,85 @@
+html, body {
+	margin: 0;
+	padding: 0;
+	height: 100%;
+	width: 100%;
+	background-image: linear-gradient(#50D8D6, #42B5B3);
+}
+
+h1 {
+	font-family: "Calibri", sans-serif;
+}
+
+#name {
+	position: relative;
+}
+
+#name h1 {
+	position: absolute;
+	top: 0px;
+	left: 0px;
+}
+
+.dot-container {
+	text-align: center;
+	line-height: normal;
+	vertical-align: middle;
+}
+
+.dot {
+	background-color: green;
+	border-radius: 50%;
+	height: 50vh;
+	width: 30vw;
+	display: inline-block;
+	line-height: normal;
+	vertical-align: middle;
+	font-size: 20vh;
+	transition-duration: 0.4s;
+	box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
+	background-color: white;
+	color: grey;
+	border: 5px solid #BC4B51;
+	margin-top: 10vh;
+}
+
+.dot:hover {
+	background-color: #BC4B51;
+	color: white;
+}
+
+h1.dot-text {
+	text-align: center;
+	margin-top: 20vh;
+	font-size: 5vh;
+}
+.data-container {
+	text-align: center;
+}
+
+.data {
+	margin-top: 3vh;
+	width: 50vw;
+	height: 10vh;
+	box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
+	background-color: white;
+	display: inline-block;
+	color: grey;
+	border: 5px solid #50D8A4;
+	transition-duration: 0.4s;
+}
+
+.data:hover {
+	background-color: #50D8A4;
+	color: white;
+}
+
+#icon {
+	position: relative;
+}
+
+#icon img {
+	position: absolute;
+	top: 0px;
+	right: 0px;
+}
