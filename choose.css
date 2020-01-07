@@ -24,8 +24,12 @@ html, body {
 	margin-top: 5%;
 	width: 35%;
 	height: 35%;
-	background-color: #89A894;
+	background-color: grey;
+	-webkit-transition-duration: 0.4s;
+	transition-duration: 0.4s;
+	box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
 }
+
 #caretakerbutton {
 	text-align: center;
 	border-radius: 10%;
@@ -35,11 +39,21 @@ html, body {
 	margin-top: 5%;
 	width: 35%;
 	height: 35%;
+	background-color: grey;
+	-webkit-transition-duration: 0.4s;
+	transition-duration: 0.4s;
+	box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
+}
+#patientbutton:hover {
 	background-color: #89A894;
+	color: #CAF7E2;
+}
+#caretakerbutton:hover {
+	background-color: #89A894;
+	color: #CAF7E2;
 }
 .you {
 	font-family: "Calibri", sans-serif;
 	margin: 0;
 	font-size: 200%;
-	color: #CAF7E2;
 }
