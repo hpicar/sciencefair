@@ -3,83 +3,72 @@ html, body {
 	padding: 0;
 	height: 100%;
 	width: 100%;
-	background-image: linear-gradient(#50D8D6, #42B5B3);
+	background-color: #42B5B3;
 }
 
-h1 {
+.icon {
+	float: left;
+	margin-left: 5%;
+}
+
+.name {
+	font-size: 2.5vh;
+	text-align: center;
+	padding-top: 65px;
+	border-left: 20px solid #1E5352;
+	border-right: 20px solid #1E5352;
+	background-color: #DCF1F1;
+	padding-bottom: 75px;
+}
+
+h1, h2 {
 	font-family: "Calibri", sans-serif;
 }
 
-#name {
-	position: relative;
-}
-
-#name h1 {
-	position: absolute;
-	top: 0px;
-	left: 0px;
-}
-
-.dot-container {
-	text-align: center;
-	line-height: normal;
-	vertical-align: middle;
-}
-
 .dot {
-	background-color: green;
 	border-radius: 50%;
-	height: 50vh;
-	width: 30vw;
-	display: inline-block;
-	line-height: normal;
-	vertical-align: middle;
-	font-size: 20vh;
+	margin-left: 9%;
+	width: 80%;
+	height: 50%;
+	margin-top: 10%;
 	transition-duration: 0.4s;
-	box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
-	background-color: white;
-	color: grey;
-	border: 5px solid #BC4B51;
-	margin-top: 10vh;
+	background-color: #DCF1F1;
+	border: 20px double #1E5352;
 }
 
 .dot:hover {
-	background-color: #BC4B51;
-	color: white;
+	background-color: #97D6D5;
 }
 
-h1.dot-text {
-	text-align: center;
-	margin-top: 20vh;
-	font-size: 5vh;
+.texts {
+	padding-top: 30%;
+	font-size: 7vh;
 }
-.data-container {
+
+h1 {
+	font-size: 3vh;
+	text-align: center;
+}
+
+h2.texttwos {
+	font-size: 3vh;
+	text-align: center;
+}
+
+h2.texttwo {
+	font-size: 2vh;
 	text-align: center;
 }
 
 .data {
-	margin-top: 3vh;
-	width: 50vw;
-	height: 10vh;
-	box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
-	background-color: white;
-	display: inline-block;
-	color: grey;
-	border: 5px solid #50D8A4;
+	width: 80%;
+	margin-left: 10%;
+	margin-top: 5%;
+	background-color: #DCF1F1;
+	border: 20px double #1E5352;
 	transition-duration: 0.4s;
 }
 
 .data:hover {
-	background-color: #50D8A4;
-	color: white;
-}
-
-#icon {
-	position: relative;
-}
-
-#icon img {
-	position: absolute;
-	top: 0px;
-	right: 0px;
+	background-color: #64C2C0;
 }
