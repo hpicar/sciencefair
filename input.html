@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<link rel="stylesheet" type="text/css" href="input.css">
+	<meta charset="utf-8">
+	<title></title>
+</head>
+<body>
+	<script>
+function popMessage() {
+if (confirm("Check Data/Analysis to see the updates!"))
+{
+  location.href = "caretaker.html"
+} else {
+  location.href = "caretaker.html"
+}
+document.getElementById("demo").innerHTML = location.href;
+}
+</script>
+	<form class="form">
+      <h1>Date</h1>
+      <input class="input" type="text" placeholder="eg. 01/09/2021"/>
+      <h1>Time</h1>
+      <input class="input" type="text" placeholder="eg. 4 minutes"/>
+      <h1>Observations</h1>
+      <input class="input" type="text" placeholder="eg. Head shaking"/>
+      <br>
+      <br>
+      <button class="butt" onclick="popMessage()"><a href="caretaker.html">Submit</a></button>
+    </form>
+</body>
+</html>
